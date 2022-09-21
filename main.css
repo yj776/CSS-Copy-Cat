@@ -1,0 +1,101 @@
+.card{
+    display: inline-block
+}
+
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 1px 6px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#777
+}
+
+nav ul li a:hover{
+    color:blueviolet
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index: 2;
+    background-color: white;
+}
+
+nav{
+    position: sticky;
+    top: 4em;
+    z-index: 1;
+    background-color: white;
+    padding: .1px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    max-width: 100;
+    height: auto;
+}
+
+.a,.b{
+    display: inline-block;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    max-width: 100;
+    height: auto;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover{
+    text-decoration: none;
+    color: hotpink;
+}
+
+header ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h7{
+    margin: 1em;
+}
+
+.headerelement{
+    margin: 1em;
+    display: flex;
+    direction: row;
+    text-align: center;
+}
+
+.headerelement2{
+    margin: 1em;
+    display: flex;
+    direction: row;
+    text-align: center;
+    border: .05em solid black;
+    border-radius: 2em;
+}
+
+
+
